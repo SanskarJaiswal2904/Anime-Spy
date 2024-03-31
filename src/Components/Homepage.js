@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import Upcoming from './Upcoming'
 import Airing from './Airing'
 
+
 function Homepage() {
 
     const {handleSubmit, 
@@ -40,6 +41,9 @@ function Homepage() {
                         rendered === 'airing' ? 'Airing Anime' : 'Upcoming Anime'}
                     </h1>
                 </div>
+                <div className='logochildren'>
+                    <a href="https://sanskarjaiswal2904.github.io/Sanskar-Website/" target='_blank'><h4>-By Sanskar<i class="fa-solid fa-link"></i></h4></a>
+                    </div>
                 <div className="search-container">
                     <div className="filter-btn popular-filter">
                         <button onClick={() => {
@@ -49,20 +53,20 @@ function Homepage() {
                     <form action="" className="search-form" onSubmit={handleSubmit}>
                         <div className="input-control">
                             <input type="text" placeholder="Search Anime" value={search} onChange={handleChange} />
-                            <button type="submit">Search</button>
+                            <button type="submit">Search<i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
                     </form>
                     <div className="filter-btn airing-filter">
                         <button onClick={() => {
                             setRendered('airing')
                             getAiringAnime()
-                        }}>Airing</button>
+                        }}>Airing<i class="fa-solid fa-tower-broadcast"></i></button>
                     </div>
                     <div className="filter-btn upcoming-filter">
                         <button onClick={() => {
                             setRendered('upcoming')
                             getUpcomingAnime()
-                        }}>Upcoming</button>
+                        }}>Upcoming<i class="fa-solid fa-rocket"></i></button>
                     </div>
                 </div>
             </header>
@@ -75,7 +79,7 @@ const HomepageStyled = styled.div`
     background-color: #EDEDED;
     header{
         padding: 2rem 5rem;
-        width: 60%;
+        width: 75%;
         margin: 0 auto;
         transition: all .4s ease-in-out;
         @media screen and (max-width:1530px){
@@ -84,6 +88,16 @@ const HomepageStyled = styled.div`
         .logo{
             display: flex;
             align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+
+        }
+        a {
+            color: #6c7983; 
+          }
+        .logochildren{
+            display: flex;
+            align-items: flex-end;
             justify-content: center;
             margin-bottom: 2rem;
         }

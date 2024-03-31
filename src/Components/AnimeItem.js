@@ -22,6 +22,7 @@ function AnimeItem() {
     const getAnime = async (anime) => {
         const response = await fetch(`https://api.jikan.moe/v4/anime/${anime}`)
         const data = await response.json()
+        console.log("All the data of Anime "+anime)
         setAnime(data.data)
     }
 
