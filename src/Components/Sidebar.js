@@ -30,7 +30,7 @@ function Sidebar() {
 
 const SidebarStyled = styled.div`
     margin-top: 2rem;
-    background-color: #fff;
+    background-color: #855ad4;
     border-top: 5px solid #e5e7eb;
     padding-right: 5rem;
     padding-left: 2rem;
@@ -49,7 +49,7 @@ const SidebarStyled = styled.div`
             display: flex;
             flex-direction: column;
             gap: .4rem;
-            color: #27AE60;
+            color: #fff;
             h4{
                 font-size: 1.1rem;
             }

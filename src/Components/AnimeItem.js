@@ -103,7 +103,7 @@ function AnimeItem() {
 
 const AnimeItemStyled = styled.div`
     padding: 3rem 18rem;
-    background-color: #EDEDED;
+    background-color: #f2a6e3;
     h1{
         display: inline-block;
         font-size: 3rem;
@@ -132,7 +132,7 @@ const AnimeItemStyled = styled.div`
         color: #6c7983;
         line-height: 1.7rem;
         button{
-            background-color: transparent;
+            background-color: #9d84caff;
             border: none;
             outline: none;
             cursor: pointer;
@@ -151,12 +151,12 @@ const AnimeItemStyled = styled.div`
             border: 5px solid #e5e7eb;
             padding: 1.5rem;
             border-radius: 10px;
-            background-color: #FFFFFF;
+            background-color: #fadbf3;
         }
     }
 
     .details{
-        background-color: #fff;
+        background-color: #fadbf3;
         border-radius: 20px;
         padding: 2rem;
         border: 5px solid #e5e7eb;
@@ -186,7 +186,7 @@ const AnimeItemStyled = styled.div`
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 2rem;
-        background-color: #fff;
+        background-color: #fadbf3;
         padding: 2rem;
         border-radius: 20px;
         border: 5px solid #e5e7eb;

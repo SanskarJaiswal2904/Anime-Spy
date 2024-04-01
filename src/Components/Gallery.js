@@ -53,7 +53,7 @@ function Gallery() {
 }
 
 const GalleryStyled = styled.div`
-    background-color: #EDEDED;
+    background-color: #9d84caff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ const GalleryStyled = styled.div`
         a{
             font-weight: 600;
             text-decoration: none;
-            color: #EB5757;
+            color: #f9c9fe;
             display: flex;
             align-items: center;
             gap: .5rem;
@@ -75,7 +75,7 @@ const GalleryStyled = styled.div`
         display: inline-block;
         padding: 2rem;
         margin: 2rem 0;
-        background-color: #fff;
+        background-color: #f9c9fe;
         border-radius: 7px;
         border: 5px solid #e5e7eb;
         position: relative;
@@ -91,7 +91,7 @@ const GalleryStyled = styled.div`
         width: 80%;
         padding: 2rem;
         border-radius: 7px;
-        background-color: #fff;
+        background-color: #f9c9fe;
         border: 5px solid #e5e7eb;
         img{
             width: 6rem;

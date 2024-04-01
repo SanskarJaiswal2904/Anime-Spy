@@ -76,7 +76,7 @@ function Homepage() {
 }
 
 const HomepageStyled = styled.div`
-    background-color: #EDEDED;
+    background-color: #3a2362ff;
     header{
         padding: 2rem 5rem;
         width: 75%;
@@ -90,10 +90,11 @@ const HomepageStyled = styled.div`
             align-items: center;
             justify-content: center;
             margin-bottom: 1rem;
+            color: #fff
 
         }
         a {
-            color: #6c7983; 
+            color: #fff; 
           }
         .logochildren{
             display: flex;
