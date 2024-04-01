@@ -129,15 +129,15 @@ const AnimeItemStyled = styled.div`
 
     .description{
         margin-top: 2rem;
-        color: #6c7983;
+        color: #b33b72;
         line-height: 1.7rem;
         button{
-            background-color: #9d84caff;
+            background-color: #f2a6e3;
             border: none;
             outline: none;
             cursor: pointer;
             font-size: 1.2rem;
-            color: #27AE60;
+            color: #b33b72;
             font-weight: 600;
         }
     }
