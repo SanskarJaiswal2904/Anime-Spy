@@ -21,7 +21,7 @@ https://anime-spy.vercel.app/
     <td align="center"><img src="https://github.com/SanskarJaiswal2904/Anime-Spy/raw/master/Characters.png" alt="Characters" width="400" height="200"></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><img src="https://github.com/SanskarJaiswal2904/Anime-Spy/raw/master/Gallery.png" alt="Gallery" width="800" height="400"></td>
+    <td align="center" colspan="2"><img src="https://github.com/SanskarJaiswal2904/Anime-Spy/raw/master/Gallery.png" alt="Gallery" width="800" height="250"></td>
   </tr>
 </table>
 
