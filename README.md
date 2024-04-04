@@ -5,7 +5,7 @@ Welcome to Anime Spy, your hub for all things anime! Powered by Jikan API, find 
 https://anime-spy.vercel.app/
 
 
-## Pages:
+# Pages:
 <table>
   <tr>
     <td align="center" colspan="2"><img src="https://github.com/SanskarJaiswal2904/Anime-Spy/raw/master/Buttons.png" alt="Buttons" width="800" height="200"></td>
@@ -28,10 +28,10 @@ https://anime-spy.vercel.app/
 
 
 ## Used
- ReactJs
- Jikan
- React-Router-Dom
- Styled-Components
- fetch
+ ReactJs,
+ Jikan,
+ React-Router-Dom,
+ Styled-Components,
+ fetch,
 
 
