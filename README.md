@@ -4,7 +4,6 @@ Welcome to Anime Spy, your hub for all things anime! Powered by Jikan API, find 
 # Hosted On:
 https://anime-spy.vercel.app/
 
-
 # Pages:
 <table>
   <tr>
