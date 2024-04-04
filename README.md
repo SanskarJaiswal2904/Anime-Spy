@@ -7,7 +7,7 @@ https://anime-spy.vercel.app/
 ## Pages:
 <table>
   <tr>
-    <td align="center" colspan="2"><img src="https://github.com/SanskarJaiswal2904/Anime-Spy/raw/master/Buttons.png" alt="Buttons" width="800" height="250"></td>
+    <td align="center" colspan="2"><img src="https://github.com/SanskarJaiswal2904/Anime-Spy/raw/master/Buttons.png" alt="Buttons" width="800" height="200"></td>
     </tr>
   <tr>
 <td align="center"><img src="https://github.com/SanskarJaiswal2904/Anime-Spy/raw/master/TopSidebar2.png" alt="Top Sidebar" width="200" height="400"></td>
