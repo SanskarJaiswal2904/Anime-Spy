@@ -33,4 +33,5 @@ https://anime-spy.vercel.app/
  Styled-Components,
  fetch,
 
-
+## Credits  
+This project was developed by [Sanskar](https://sanskarjaiswal2904.github.io/Sanskar-Website/). 
